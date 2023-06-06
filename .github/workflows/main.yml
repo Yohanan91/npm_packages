@@ -27,4 +27,4 @@ jobs:
       #   run: CI=true npm run test --app.js --verbose
 
       - name: Build
-        run: npm run build
+        run: node app.js
