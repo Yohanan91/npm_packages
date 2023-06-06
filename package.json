@@ -6,7 +6,8 @@
     },
     "scripts": {
         "format": "prettier --write \"**/*.{js,jsx}\"",
-        "lint": "eslint **/*.{js,jsx} --quiet"
+        "lint": "eslint **/*.{js,jsx} --quiet",
+        "test": "npm run test"
     },
     "devDependencies": {
         "eslint": "^8.42.0",
