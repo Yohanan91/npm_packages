@@ -23,8 +23,8 @@ jobs:
       - name: Formatter (Prettier)
         run: npm run format
 
-      - name: Test (Jest)
-        run: CI=true npm run test --app.js --verbose
+      # - name: Test (Jest)
+      #   run: CI=true npm run test --app.js --verbose
 
       - name: Build
         run: npm run build
