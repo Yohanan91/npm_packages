@@ -5,7 +5,7 @@
         "prettier": "^2.8.8"
     },
     "scripts": {
-        "format": "prettier --write \"src/**/*.{js,jsx}\"",
+        "format": "prettier --write \"**/*.{js,jsx}\"",
         "lint": "eslint **/*.{js,jsx} --quiet"
     },
     "devDependencies": {
